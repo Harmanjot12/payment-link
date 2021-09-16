@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Payment Link</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">	
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href=""><img src="logo.png" class="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"></a>
+      </li>
+    </ul>
+    <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-primary">Home</button>
+    </div>
+
+  </div>
+</nav>
+
+
+<br><br><br><br>
+<div class="container">
+<div class="card"><br><br>
+    <div class="card-body"><br><br>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="left border">
+                    <div class="row"> <span class="header">Payment</span>
+                        <div class="icons"> <img src="https://img.icons8.com/color/48/000000/visa.png" /> <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" /> <img src="https://img.icons8.com/color/48/000000/maestro.png" /> </div>
+                    </div>
+                    <form> <span>Cardholder's name:</span> <input placeholder="Harmanjot Singh"> <span>Card Number:</span> <input placeholder="0125 6780 4567 9909">
+                        <div class="row">
+                            <div class="col-4"><span>Expiry date:</span> <input placeholder="YY/MM"> </div>
+                            <div class="col-4"><span>CVV:</span> <input id="cvv"> </div>
+                        </div> <input type="checkbox" id="save_card" class="align-left"> <label for="save_card">Save card details to wallet</label>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="right border">
+                    <div class="header">Order Summary</div>
+                    <p>1 items</p>
+                    <div class="row item">
+                        <div class="col-4 align-self-center"><img class="img-fluid" src="css.jpg"></div>
+                        <div class="col-8">
+                            <div class="row"><b>$ 20.00</b></div>
+                            <div class="row text-muted">Cascading Style Sheets</div>
+                            <div class="row">Qty:1</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row lower">
+                        <div class="col text-left">Subtotal</div>
+                        <div class="col text-right">$ 100.00</div>
+                    </div>
+                    <div class="row lower">
+                        <div class="col text-left">Discount</div>
+                        <div class="col text-right">$ 80.00</div>
+                    </div>
+                    <div class="row lower">
+                        <div class="col text-left"><b>Total to pay</b></div>
+                        <div class="col text-right"><b>$ 20.00</b></div>
+                    </div>
+                    <div class="row lower">
+                    </div> <button class="btn">Place order</button>
+                    <p class="text-muted text-center">You can return course with 48 hours</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div> </div>
+</div>
+</div>	
+</body>
+</html>
